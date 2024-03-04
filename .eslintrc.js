@@ -52,5 +52,6 @@ module.exports = {
     'react': {
       'version': 'detect' // oder Ihre spezifische React-Version
     }
-  }
+  },
+  'ignorePatterns': ['node_modules/'] // Ignoriert das node_modules-Verzeichnis
 }
