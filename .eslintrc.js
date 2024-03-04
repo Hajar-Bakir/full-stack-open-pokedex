@@ -45,5 +45,11 @@ module.exports = {
     ],
     "no-console": "error",
     "react/prop-types": 0
+  },
+  // Zusätzliche Einstellungen für React-Plugin
+  "settings": {
+    "react": {
+      "version": "detect" // oder Ihre spezifische React-Version
+    }
   }
 }
