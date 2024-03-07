@@ -20,8 +20,8 @@ jobs:
         with:
           node-version: '16'
 
-      # - name: Install Dependencies
-      #   run: npm install   # Diese Zeilen wurden auskommentiert, um das Fehlschlagen des Workflows zu provozieren
+      - name: Install Dependencies
+        run: npm install   # Diese Zeilen wurden auskommentiert, um das Fehlschlagen des Workflows zu provozieren
 
       - name: Code Linting (with Fix)
         run: npm run eslint -- --fix
